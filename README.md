@@ -32,4 +32,12 @@ Your task is to, write a C++ program which implements Room class and operator ov
 **Hints:** The attribute *Area* is a derived attribute, which means, its value can be calculated by multiplying Width with Length, i.e ```Area = Width * Length;```
 
 ### Solution Guidelines:
-  * sjg
+  * Create (Declare) **Room** class with data members and member functions given in the above diagram (class).
+  * Overload the stream extraction operator (>>) for the class, so that you could directly use the statements like, ```cin>>Room1; cin>>Room2;```, where *Room1*, and *Room2* are objects of class **Room**.
+  * Overload the binary plus (+) operator for the class, so that you could use the statement like, ```TotalArea= Room1 + Room2;``` , make sure that *TotalArea* is a float/double type variable.
+  * Overload the stream insertion operator (<<) for the class, so that you could directly use the statements like, ```cout<<Room1; cout<<Room2;```
+  * In main() function, create two objects of **Room** class, read values for these objects using extraction operator >>.
+  * Calculate the total area of both rooms, Print area of both rooms and their total area.
+### Sample Output:
+
+  
