@@ -24,3 +24,4 @@ To learn how to convert Problem Statment into UML class diagram click here: [Ste
 
 ## Task 2 - UML Class Diagram to C++ coding
 Consider the following class from the scenario discussed in task 1:
+![drawing1](https://user-images.githubusercontent.com/41892175/47065624-3a0f6100-d216-11e8-8ffd-0177aa4211c9.png)
