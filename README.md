@@ -29,11 +29,8 @@ Suppose Pakfood Company provides so many rooms to rent in for storage purposes. 
 
 Your task is to, write a C++ program which implements Room class and operator overloading with attributes and operations (functions) given in the above class structure.
 
-**Hints:** The attribute “Area” is a derived attribute, which means, its value can be calculated by
-multiplying Width with Length, i.e **Area = Width * Length;**
+**Hints:** The attribute *Area* is a derived attribute, which means, its value can be calculated by
+multiplying Width with Length, i.e ```Area = Width * Length;```
 
 ### Solution Guidelines:
-    * Create (Declare) **Room** class with data members and member functions given in the above diagram (class).
-    * Overload the stream extraction operator (>>) for the class, so that you could directly use the statements like, **cin>>Room1; cin>>Room2**, where Room1, and Room2 are objects of class Room.
-    * Overload the binary plus (+) operator for the class, so that you could use the statement like, TotalArea= Room1 + Room2; , make sure that “TotalArea” is a float/double type variable.
-
+    * sd
