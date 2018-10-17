@@ -25,3 +25,15 @@ To learn how to convert Problem Statment into UML class diagram click here: [Ste
 ## Task 2 - UML Class Diagram to C++ coding
 Consider the following class from the scenario discussed in task 1:
 ![drawing1](https://user-images.githubusercontent.com/41892175/47065624-3a0f6100-d216-11e8-8ffd-0177aa4211c9.png)
+Suppose Pakfood Company provides so many rooms to rent in for storage purposes. The shape of all rooms is rectangular, and you being a part of development team are assigned a task to calculate room area before allocating it to customers. If the company’s order is so large that it cannot be accommodated in a single room, then, it will hire more than one room for its order. Suppose that every order requires at least two rooms.
+
+Your task is to, write a C++ program which implements Room class and operator overloading with attributes and operations (functions) given in the above class structure.
+
+**Hints:** The attribute “Area” is a derived attribute, which means, its value can be calculated by
+multiplying Width with Length, i.e **Area = Width * Length;**
+
+### Solution Guidelines:
+    * Create (Declare) **Room** class with data members and member functions given in the above diagram (class).
+    * Overload the stream extraction operator (>>) for the class, so that you could directly use the statements like, **cin>>Room1; cin>>Room2**, where Room1, and Room2 are objects of class Room.
+    * Overload the binary plus (+) operator for the class, so that you could use the statement like, TotalArea= Room1 + Room2; , make sure that “TotalArea” is a float/double type variable.
+
