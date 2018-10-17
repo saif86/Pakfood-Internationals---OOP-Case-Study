@@ -39,5 +39,6 @@ Your task is to, write a C++ program which implements Room class and operator ov
   * In main() function, create two objects of **Room** class, read values for these objects using extraction operator >>.
   * Calculate the total area of both rooms, Print area of both rooms and their total area.
 ### Sample Output:
+![untitled](https://user-images.githubusercontent.com/41892175/47066237-059ca480-d218-11e8-95c2-0aab7e8980ac.png)
 
   
