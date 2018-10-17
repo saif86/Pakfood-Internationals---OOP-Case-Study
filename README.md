@@ -1,4 +1,4 @@
-# UML-class-diagram-Pakfood-International
+# Pakfood Internationals - OOP case study
 Converting a problem statement into class diagram.
 ## Problem Statement
 *"Let’s assume a firm called **“Pakfood International”**, that is running an export trade business of vegetables from Pakistan to 3 continents Africa, Asia and Europe. The company is using three kinds of transport i.e. Land transport, Sea transport, and Air transport to carry goods for shipments. It uses Land and Sea transport from Pakistan to South East Asia, Middle East, Far East, and Africa. Moreover, it uses sea and air transport for European countries. It also has cold rooms and halls available to rent in for customers’ small and large orders respectively"*
