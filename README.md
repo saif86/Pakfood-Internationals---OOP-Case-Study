@@ -32,4 +32,4 @@ Your task is to, write a C++ program which implements Room class and operator ov
 **Hints:** The attribute *Area* is a derived attribute, which means, its value can be calculated by multiplying Width with Length, i.e ```Area = Width * Length;```
 
 ### Solution Guidelines:
-    * sdjgjasd
+  * sjg
