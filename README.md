@@ -29,8 +29,7 @@ Suppose Pakfood Company provides so many rooms to rent in for storage purposes. 
 
 Your task is to, write a C++ program which implements Room class and operator overloading with attributes and operations (functions) given in the above class structure.
 
-**Hints:** The attribute *Area* is a derived attribute, which means, its value can be calculated by
-multiplying Width with Length, i.e ```Area = Width * Length;```
+**Hints:** The attribute *Area* is a derived attribute, which means, its value can be calculated by multiplying Width with Length, i.e ```Area = Width * Length;```
 
 ### Solution Guidelines:
-    * sd
+    * sdjgjasd
