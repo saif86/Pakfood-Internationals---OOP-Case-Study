@@ -22,7 +22,7 @@ Besides problem statement; objects, properties, and functions of a system can al
 
 To learn how to convert Problem Statment into UML class diagram click here: [Step-wise procedure to translate a problem statement into class diagram](https://github.com/saif86/Object-Oriented-Modeling---Graphic-Editor)
 
-## Task 2 - UML Class Diagram to C++ coding
+## Task 2 - UML Class Diagram to C++ coding with operator overloading
 Consider the following class from the scenario discussed in task 1:
 ![drawing1](https://user-images.githubusercontent.com/41892175/47065624-3a0f6100-d216-11e8-8ffd-0177aa4211c9.png)
 Suppose Pakfood Company provides so many rooms to rent in for storage purposes. The shape of all rooms is rectangular, and you being a part of development team are assigned a task to calculate room area before allocating it to customers. If the company’s order is so large that it cannot be accommodated in a single room, then, it will hire more than one room for its order. Suppose that every order requires at least two rooms.
@@ -40,5 +40,8 @@ Your task is to, write a C++ program which implements Room class and operator ov
   * Calculate the total area of both rooms, Print area of both rooms and their total area.
 ### Sample Output:
 ![untitled](https://user-images.githubusercontent.com/41892175/47066237-059ca480-d218-11e8-95c2-0aab7e8980ac.png)
+
+## Task 3 - Inheritance & Aggregation
+In continuation of the Task 1, consider the following class diagram (a part from Task 1 solution), detailed description of the diagram is given in the table.
 
   
