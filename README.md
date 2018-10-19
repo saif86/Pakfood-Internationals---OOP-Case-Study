@@ -44,7 +44,7 @@ Your task is to, write a C++ program which implements Room class and operator ov
 ## Task 3 - Inheritance & Aggregation
 In continuation of the Task 1, consider the following class diagram (a part from Task 1 solution), detailed description of the diagram is given in the table.
 
-![untitled](https://user-images.githubusercontent.com/41892175/47195246-9e086580-d38d-11e8-991a-c65e945b75ef.png)
+![untitled](https://user-images.githubusercontent.com/41892175/47195552-060b7b80-d38f-11e8-9cb1-925046898181.png)
 
 ![table](https://user-images.githubusercontent.com/41892175/47195305-e4f65b00-d38d-11e8-99e4-7fda5645eb19.png)
 
