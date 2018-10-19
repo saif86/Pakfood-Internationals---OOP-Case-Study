@@ -49,7 +49,9 @@ In continuation of the Task 1, consider the following class diagram (a part from
 You are required to map (implement/Code) this class diagram into C++. Make sure that your solution must contain **ONLY** classes’ definitions given in the diagram, definitions of all attributes and proper declaration and definitions of member functions including constructors that are given in the above table.
 ### Detail of some Member Functions:
 **Profit_Report()**: This function prints the annual profit of the company.
+
 **Financial_Statement()**: This function prints the annual financial statement of the company.
+
 **Carry_Good()**: Each transport has carrying goods functionality.
 #### Note
   * The body of all member functions should be empty, while the constructors should have code which initializes the objects.
