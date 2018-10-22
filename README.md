@@ -60,7 +60,4 @@ You are required to map (implement/Code) this class diagram into C++. Make sure 
   * In main function you may print a simple “cout” statement in order to check your program for syntax errors.
   * **You must also implement inheritance and aggregation.**
 
-## Task 4 - Inheritance & Polymorphism
-Consider the following Class Diagram; detailed description of the diagram is given in the table:
-
-![drawing1](https://user-images.githubusercontent.com/41892175/47277022-52082b80-d5ee-11e8-9fc1-4cade00b3aae.png)
+![untitled](https://user-images.githubusercontent.com/41892175/47277059-ccd14680-d5ee-11e8-9654-1cb96cc73476.png)
