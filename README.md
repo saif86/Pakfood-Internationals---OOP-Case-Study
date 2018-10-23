@@ -59,6 +59,10 @@ You are required to map (implement/Code) this class diagram into C++. Make sure 
   * The body of all member functions should be empty, while the constructors should have code which initializes the objects.
   * In main function you may print a simple “cout” statement in order to check your program for syntax errors.
   * **You must also implement inheritance and aggregation.**
+
+## Task 4 - Inheritance & Polymorphism
+Consider the following Class Diagram; detailed description of the diagram is given in the table:
+
 ![drawing1](https://user-images.githubusercontent.com/41892175/47329556-c3f07b80-d6a7-11e8-96ef-53c820212d97.png)
 
 ![untitled](https://user-images.githubusercontent.com/41892175/47277059-ccd14680-d5ee-11e8-9654-1cb96cc73476.png)
