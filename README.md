@@ -66,3 +66,12 @@ Consider the following Class Diagram; detailed description of the diagram is giv
 ![drawing1](https://user-images.githubusercontent.com/41892175/47329556-c3f07b80-d6a7-11e8-96ef-53c820212d97.png)
 
 ![untitled](https://user-images.githubusercontent.com/41892175/47277059-ccd14680-d5ee-11e8-9654-1cb96cc73476.png)
+
+In given class diagram, Transport is a base class; while Land Transport and Air Transport are its derived classes. You are required to implement above class diagram in C++. For this you have to use the concept of inheritance and polymorphism.
+### Solution Guidelines:
+  * In *Load( )* function of **Transport** class, a message should be displayed **"Goods are loaded successfully"**.
+  * In *Unload( )* function of **Transport** class, a message should be displayed **""Goods are unloaded successfully"**.
+  * *Ship( )* function of each class should display a message representing each class. Each class will display their own message when this function call will be made. For example, against *Ship( )* function of **Land_Transport** class, message **"In land transport, shipping is done via Truck"** should be displayed and against *Ship( )* function of **Air_Transport** class, message **"In air transport, shipping is done via air cargo"** should be displayed.
+  * Behavior of *ship( )* function must be implemented using **polymorphism**.
+### Sample Output
+
