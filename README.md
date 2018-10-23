@@ -73,5 +73,7 @@ In given class diagram, Transport is a base class; while Land Transport and Air 
   * In *Unload( )* function of **Transport** class, a message should be displayed **""Goods are unloaded successfully"**.
   * *Ship( )* function of each class should display a message representing each class. Each class will display their own message when this function call will be made. For example, against *Ship( )* function of **Land_Transport** class, message **"In land transport, shipping is done via Truck"** should be displayed and against *Ship( )* function of **Air_Transport** class, message **"In air transport, shipping is done via air cargo"** should be displayed.
   * Behavior of *ship( )* function must be implemented using **polymorphism**.
-### Sample Output
+
+### Sample Output:
+![output](https://user-images.githubusercontent.com/41892175/47329801-9b1cb600-d6a8-11e8-92b7-5333d0efe848.png)
 
