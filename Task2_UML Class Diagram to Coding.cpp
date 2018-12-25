@@ -18,6 +18,11 @@ public:
 	/** Default + Overloaded constructor.
 	*/
 	Room(float = 0.0, float = 1.0);
+	
+	// Use compiler-generated copy constructor, assignment, and destructor.
+	// Room(const Room&);
+	// Room& operator=(const Room&);
+	// ~Room();
 
 // OPERATORS
 	/** Stream Insertion operator.
