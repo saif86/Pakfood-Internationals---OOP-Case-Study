@@ -10,7 +10,6 @@
 
 #include <iostream> 
 using namespace std;
-#include "Company.h" 
 #include "AirTransportT4.h" 
 #include "LandTransportT4.h" 
 
