@@ -1,48 +1,22 @@
-#include <iostream>
+/**
+* @file Task4_Polynorphism.cpp
+*
+* @brief This code implements Polymorphism concepts.
+* Land & Air Transport classes are inhereted from transport. 
+*
+* @author Saif Ullah Ijaz
+*
+*/
 
+#include <iostream> 
 using namespace std;
-class transport {
-	float weight, speed;
-	char capacity[50];
-public:
-	void load() {
-		cout << "Goods are loaded successfully" << endl;
-
-	}
-	void unload() {
-		cout << "Goods are unloaded successfully" << endl;
-
-	}
-	virtual void ship() = 0;
-
-};
-class land_Transport :public transport {
-
-	char Vehicle_type[30];
-	char Transportation_Mode[50];
-
-public:
-	virtual void ship()
-	{
-		cout << "\nIn land transport, shipping is done via truck" << endl;
+#include "Company.h" 
+#include "AirTransportT4.h" 
+#include "LandTransportT4.h" 
 
 
-	}
-
-
-};
-class Air_Transport :public transport {
-	char Aircraft_type[50];
-	char Airline_name[50];
-public:
-	virtual  void ship() {
-
-		cout << "\nIn air transport, shipping is done via air cargo" << endl;
-	}
-
-
-};
-int main(int argc, char *argv[])
+// function main begins program execution
+void main()
 {
 	char a;
 	char slct;
@@ -56,13 +30,13 @@ int main(int argc, char *argv[])
 		cin >> slct;
 
 		if (slct == 'L' || slct == 'l') {
-			transport* _transport = new land_Transport();
-			_transport->ship();
+			Transport* _transport = new LandTransport();
+			_transport->Ship();
 		}
 		else if (slct == 'A' || slct == 'a')
 		{
-			transport* atransport = new Air_Transport();
-			atransport->ship();
+			Transport* atransport = new AirTransport();
+			atransport->Ship();
 
 		}
 
@@ -73,6 +47,7 @@ int main(int argc, char *argv[])
 	}
 
 	cout << "\n\nThanks for using this program..." << endl;
-	system("PAUSE");
-	return EXIT_SUCCESS;
+	
+	system("pause");
 }
+// end main
